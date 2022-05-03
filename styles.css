@@ -4,7 +4,6 @@
         box-sizing: border-box;
         list-style: none;
     }
-    
     .nav {
         display: flex;
         justify-content: space-between;
@@ -28,7 +27,6 @@
         color: #fff;
         text-decoration: none;
     }
-    
     .header-bar {
         color: #fff;
         text-decoration: none;
@@ -55,7 +53,6 @@
         letter-spacing: 1px;
         text-align: left;
     }
-    
     .h3 {
         margin-top: 0px;
         color: #fff5e1;
