@@ -57,7 +57,7 @@
 }
 
 .h3 {
-  margin-top: 10px;
+  margin-top: 0;
   color: #fff5e1;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -352,4 +352,87 @@
 
 .img {
   margin-right: 8px;
+}
+
+.intro-text {
+  position: static;
+  width: 290px;
+  height: 200px;
+  left: 0;
+  top: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 39px;
+  text-align: center;
+  color: #172b4d;
+  margin: 24px 0;
+}
+
+.form {
+  font-family: sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-row-gap: 10px;
+  padding: 0;
+  position: static;
+  width: 270px;
+  height: 194px;
+  margin: 58px 0;
+}
+
+.get-button {
+  background: #ff6b00;
+  border: none;
+  color: #fff;
+  width: 40%;
+  padding: 12px 0;
+  font-size: 15px;
+  margin: 10px 90px;
+}
+
+.get-button:hover {
+  border: 1px solid #f55800;
+  background: #fff5e1;
+  color: #f55800;
+}
+
+.get-button:disabled {
+  background: #e5e5e5;
+  border: none;
+  color: #5b5957;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  max-width: 200px;
+  margin: 70px 0 110px;
+
+  /* padding: 10px 0 0 50px; */
+}
+
+.social-logos {
+  color: #505f79;
+  width: 15px;
+  height: 15px;
+  margin-top: 10px;
+}
+
+#fname,
+#mail {
+  border-bottom: 1px solid #dbdbd7;
+  width: 227px;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-width: 0;
+  padding: 15px 1px;
+}
+
+textarea {
+  height: 127px;
 }
