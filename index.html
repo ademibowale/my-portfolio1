@@ -14,7 +14,12 @@
     <header class="header">
         <nav class="nav">
             <a href="/" class="john-doe">John Doe</a>
-            <nav class="header-bar"><i class="fa fa-bars cursor"></i></nav>
+            <nav class="header-bar">
+                <a class="nav_link" href="#">Portfolio</a>
+                <a class="nav_link" href="#">About</a>
+                <a class="nav_link" href="#">Contact</a>
+
+            </nav>
         </nav>
     </header>
     <section class="main-section">
@@ -171,14 +176,16 @@
         </ul>
     </section>
     <section>
-        <h3 class="intro-text">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-        <div class="container"></div>
-        <form class="form" action="https://formspree.io/f/xzbokwoy" method="post">
-            <input type="text" id="fname" name="name" placeholder="Full Name" maxlength="30" required>
-            <input id="email" name="email" type="email" placeholder="Email" required>
-            <textarea name="message" cols="30" rows="10" required maxlength="500">Enter Yout text here</textarea>
-            <button class="get-button" type="submit">Get In Touch</button>
-        </form>
+        <div class="container">
+            <h3 class="intro-text">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+
+            <form class="form" action="https://formspree.io/f/xzbokwoy" method="post">
+                <input type="text" id="fname" name="name" placeholder="Full Name" maxlength="30" required>
+                <input id="email" name="email" type="email" placeholder="Email" required>
+                <textarea name="message" cols="30" rows="10" required maxlength="500">Enter Yout text here</textarea>
+                <button class="get-button" type="submit">Get In Touch</button>
+            </form>
+        </div>
         <ul class="social-icons">
             <li><img src="images/vector.png3.png" class="social-logos" alt="my logo"></li>
             <li>
