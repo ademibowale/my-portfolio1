@@ -211,6 +211,8 @@
   background-repeat: no-repeat;
   opacity: 10;
   background-size: cover;
+  height: 25rem;
+  margin-top:5rem;
 }
 
 .project-title {
@@ -244,6 +246,7 @@
 
 .text-container {
   padding: 20px 10px;
+  margin-top: 6.2em;
 }
 
 .card-button {
