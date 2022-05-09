@@ -56,6 +56,13 @@
   text-align: left;
 }
 
+.h2:hover {
+  transition-duration: 2s;
+  transition-property: background-color;
+  background-color: #ff6b00;
+  color: white;
+}
+
 .h3 {
   margin-top: 0;
   color: #fff5e1;
