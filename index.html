@@ -14,7 +14,12 @@
     <header class="header">
         <nav class="nav">
             <a href="/" class="john-doe">John Doe</a>
-            <nav class="header-bar"><i class="fa fa-bars cursor"></i></nav>
+            <nav class="header-bar">
+                <a class="nav_link" href="#">Portfolio</a>
+                <a class="nav_link" href="#">About</a>
+                <a class="nav_link" href="#">Contact</a>
+
+            </nav>
         </nav>
     </header>
     <section class="main-section">
@@ -45,18 +50,29 @@
         <br>
         <div class="grid-container">
             <img src="images/img.placeholder2.png" alt="my logo" />
-            <h3 class="post-title">Multi-Post Stories</h3>
-            <p class="post-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul class="list">
-                <li>css</li>
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>ruby</li>
-            </ul>
-            <button type="button" class="project-button">See Project</button>
+            <div class="image-place">
+                <h3 class="post-title">Multi-Post Stories</h3>
+                <p class="post-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul class="list">
+                    <li class="land-button">css</li>
+                    <li class="land-button">html</li>
+                    <li class="land-button">bootstrap</li>
+                    <li class="land-button">ruby</li>
+                </ul>
+                <button type="submit" class="project-button">See Project</button>
+            </div>
         </div>
+
+
         <ul class="project">
-            <li class="project-card">
+            <li class="project-card card1">
+
+                <div class="column">
+                    <img class="image-none" src="images/newimage4.png" alt="flower ">
+                </div>
+                <button class="card-button" type="submit">See Project</button>
+            </li>
+            <li class="project-card card2">
                 <div class="text-container">
                     <h3 class="project-title">Profesional Art Printing Data</h3>
                     <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
@@ -67,9 +83,9 @@
                     </ul>
 
                 </div>
-                <button class="card-button" type="button">See Project</button>
+                <button class="button card-button" type="submit">See Project</button>
             </li>
-            <li class="project-card">
+            <li class="project-card card3">
                 <div class="text-container">
                     <h3 class="project-title">Profesional Art Printing Data</h3>
                     <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
@@ -80,9 +96,9 @@
                     </ul>
 
                 </div>
-                <button class="button card-button" type="button">See Project</button>
+                <button class="button card-button" type="submit">See Project</button>
             </li>
-            <li class="project-card">
+            <li class="project-card card4">
                 <div class="text-container">
                     <h3 class="project-title">Profesional Art Printing Data</h3>
                     <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
@@ -93,9 +109,9 @@
                     </ul>
 
                 </div>
-                <button class="button card-button" type="button">See Project</button>
+                <button class="button card-button" type="submit">See Project</button>
             </li>
-            <li class="project-card">
+            <li class="project-card card5">
                 <div class="text-container">
                     <h3 class="project-title">Profesional Art Printing Data</h3>
                     <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
@@ -106,22 +122,9 @@
                     </ul>
 
                 </div>
-                <button class="button card-button" type="button">See Project</button>
+                <button class="button card-button" type="submit">See Project</button>
             </li>
-            <li class="project-card">
-                <div class="text-container">
-                    <h3 class="project-title">Profesional Art Printing Data</h3>
-                    <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="list-container">
-                        <li class="project-list">html</li>
-                        <li class="project-list">bootstrap</li>
-                        <li class="project-list">ruby</li>
-                    </ul>
-
-                </div>
-                <button class="button card-button" type="button">See Project</button>
-            </li>
-            <li class="project-card">
+            <li class="project-card card6">
                 <div class="text-container">
                     <h3 class="project-title">Profesional Art Printing Data</h3>
                     <p class="project-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
@@ -141,10 +144,10 @@
         <h2 class="about-title">About me</h2>
         <div class="about">
             <p class="about-text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            <button class="button about-button" type="button">Get My Resume</button>
+            <button class="button about-button" type="submit">Get My Resume</button>
         </div>
         <ul class="language">
-            <li><img src="images/Rectangle55.png" alt="my logo" class="img">Language
+            <li><img src="images/Rectangle55.png" alt="my logo" class="img ">Language
                 <ul>
                     <li class="language-list">Javascript</li>
                     <li class="language-list">Ruby</li>
@@ -173,25 +176,27 @@
         </ul>
     </section>
     <section>
-        <h3 class="intro-text">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-        <div class="container"></div>
-        <form class="form" action="https://formspree.io/f/xzbokwoy" method="post">
-            <input type="text" id="fname" name="name" placeholder="Full Name" maxlength="30" required>
-            <input id="email" name="email" type="email" placeholder="Email" required>
-            <textarea name="message" cols="30" rows="10" required maxlength="500">Enter Yout text here</textarea>
-            <button class="get-button" type="submit">Get In Touch</button>
-        </form>
+        <div class="container">
+            <h3 class="intro-text">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+
+            <form class="form" action="https://formspree.io/f/xzbokwoy" method="post">
+                <input type="text" id="fname" name="name" placeholder="Full Name" maxlength="30" required>
+                <input id="email" name="email" type="email" placeholder="Email" required>
+                <textarea name="message" cols="30" rows="10" required maxlength="500">Enter Yout text here</textarea>
+                <button class="get-button" type="submit">Get In Touch</button>
+            </form>
+        </div>
         <ul class="social-icons">
-            <li><img src="images/vector.png3.png" class="social-logos " alt="my logo "></li>
+            <li><img src="images/vector.png3.png" class="social-logos" alt="my logo"></li>
             <li>
                 <div>
-                    <img src="images/vector.png " class="social-logo logons " alt="my logo ">
-                    <img src="images/vector.png90.png " class="social-logo logons " alt="my logo ">
+                    <img src="images/vector.png" class="social-logo logons" alt="my logo">
+                    <img src="images/vector.png90.png" class="social-logo logons" alt="my logo ">
                 </div>
             </li>
-            <li><img src="images/vector.png8.png " alt="my logo " class="social-logos "></li>
-            <li><img src="images/vector.png4.png " alt="my logo " class="social-logos "></li>
-            <li><img src="images/vector.png2.png " alt="my logo " class="social-logos "></li>
+            <li><img src="images/vector.png8.png" alt="my logo" class="social-logos"></li>
+            <li><img src="images/vector.png4.png" alt="my logo" class="social-logos"></li>
+            <li><img src="images/vector.png2.png" alt="my logo" class="social-logos"></li>
         </ul>
     </section>
 </body>

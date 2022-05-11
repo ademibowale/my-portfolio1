@@ -33,6 +33,14 @@
   color: #fff;
   text-decoration: none;
   font-size: 20px;
+  margin: 10px;
+}
+
+.header-bar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
 }
 
 .main-section {
@@ -295,6 +303,7 @@
   font-size: 16px;
   line-height: 30px;
   color: #f4f5f7;
+  width: 50%;
 }
 
 .about-button {
@@ -358,8 +367,7 @@
 }
 
 .intro-text {
-  position: static;
-  width: 290px;
+  width: 50%;
   height: 200px;
   left: 0;
   top: 0;
@@ -370,7 +378,7 @@
   line-height: 39px;
   text-align: center;
   color: #172b4d;
-  margin: 24px 0;
+  margin-top: 30px;
 }
 
 .form {
@@ -382,9 +390,9 @@
   grid-row-gap: 10px;
   padding: 0;
   position: static;
-  width: 270px;
   height: 194px;
-  margin: 58px 0;
+  margin-top: 30px;
+  width: 50%;
 }
 
 .get-button {
@@ -415,8 +423,6 @@
   padding-top: 10px;
   max-width: 200px;
   margin: 70px 0 110px;
-
-  /* padding: 10px 0 0 50px; */
 }
 
 .social-logos {
@@ -436,6 +442,104 @@
   padding: 15px 1px;
 }
 
-textarea {
+.textarea {
   height: 127px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: (12, 1fr);
+  }
+
+  .image-place {
+    margin: 12px;
+  }
+
+  .card-button {
+    display: flex;
+    width: 100%;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .project-card {
+    flex: 32%;
+    padding: 1px;
+    margin: 6px 6px;
+  }
+
+  .card1 {
+    background-image: url(./images/newimage5.png);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  .card2 {
+    background-image: url(./images/newimage6.png);
+    background-size: cover;
+  }
+
+  .card3 {
+    background-image: url(./images/newimage4.png);
+    background-size: cover;
+  }
+
+  .card4 {
+    background-image: url(./images/newimage5.png);
+    background-size: cover;
+  }
+
+  .card5 {
+    background-image: url(./images/newimage6.png);
+    background-size: cover;
+  }
+
+  .card6 {
+    background-image: url(./images/newimage6.png);
+    background-size: cover;
+  }
+
+  .class-p {
+    grid-column: 8/13;
+    padding-left: 16px;
+  }
+
+  .language {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lang {
+    width: 33.3%;
+  }
+
+  .image-card {
+    width: 85%;
+  }
+
+  .image-none {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+
+  .list {
+    justify-content: flex-start;
+  }
+
+  .land-button {
+    padding: 24px;
+  }
 }

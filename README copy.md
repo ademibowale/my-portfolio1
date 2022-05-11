@@ -2,7 +2,7 @@
 
 # Project Name
 
->my-portfolio  
+my-portfolio desktop version  
 
 
 ## Built With
