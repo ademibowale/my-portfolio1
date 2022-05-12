@@ -3,7 +3,7 @@
 
 # Project Name
 
->my-portfolio  
+>my-portfolio  -contact-form-mobile
 
 
 ## Built With
