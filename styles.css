@@ -214,7 +214,7 @@
 }
 
 .project-card {
-  background-image: url("./images/professional\ pic.png");
+  background-image: url("./images/professional\pic.png");
   background-repeat: no-repeat;
   opacity: 10;
   background-size: cover;
